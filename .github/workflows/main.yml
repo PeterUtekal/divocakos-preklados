@@ -1,0 +1,19 @@
+name: FTP Deployment to websupport
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: Checkout repository
+      uses: actions/checkout@v1.0.0
+
+    - name: Upload the api folder to wesupport
+      uses: airvzxf/ftp-deployment-action@latest
+      with:
+          server: ${{ secrets.FTP_SERVER }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local_dir: "/"
+          remote_dir: "/web"
