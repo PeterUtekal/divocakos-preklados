@@ -12,7 +12,16 @@
 		@media(max-width:960px){
 			form{
 				flex-wrap:wrap;
+				padding-bottom:2em;
 			}
+			button{
+				height:3em;
+				width:5em;
+			}
+			textarea{
+				min-height:150px !important;
+			}
+	
 		}
 		</style>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
