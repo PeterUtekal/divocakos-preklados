@@ -1,7 +1,7 @@
 name: FTP Deployment to websupport
 on:
   push:
-    branches: [ main ]
+    branches: [ m ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,5 +15,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local_dir: "/"
+          local_dir: "./"
           remote_dir: "/web"
