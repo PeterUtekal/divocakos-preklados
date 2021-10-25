@@ -20,15 +20,26 @@
 								$word = $word . 's';
 								array_push($out, $word);
 								continue;
-						}	
-
+						}else if($l == 'a' || $l == 'i' || $l == 'y'){
+								$word = substr_replace($word ,"", -1);
+								$word = $word . 'os';
+								array_push($out, $word);		
+								continue;
+						}
 
 
 						array_push($out, $word);
 
 				}
 
+
+				array_push($out, ",sak");
+				array_push($out, "povedz");
+				array_push($out, "ty");
+				array_push($out, "ne");
 				$outStr = implode(" ", $out);
+
+
 				echo $outStr;
 
 		}

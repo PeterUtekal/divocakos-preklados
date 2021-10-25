@@ -14,7 +14,7 @@
 				flex-wrap:wrap;
 				padding-bottom:2em;
 			}
-			button{
+			button[type=submit]{
 				height:3em;
 				width:5em;
 			}
@@ -52,10 +52,6 @@
 						  <a class="nav-link" href="https://twitter.com/peterutekal_"><i class="bi bi-twitter"></i></a>
 						</li>
 						<li class="nav-item">
-						  <a class="nav-link" href="https://www.facebook.com/profile.php?id=100014015532696"><i class='bi bi-facebook'></i></a>
-						</li>
-						
-						<li class="nav-item">
 						  <a class="nav-link" href="https://github.com/PeterUtekal/divocakos-preklados"><i class='bi bi-github'></i></a>
 						</li>
 						
@@ -65,7 +61,7 @@
 				</nav>
 			<div class='container mt-3 jumbotron'>
 				<h1 class='text-center'><img src='divocak.jpeg' height='40' /> divocakos-preklados.sk</h1>
-				<p class='text-center'>Preklados divočákos jazykos jednoduchos né šak vieš.</p>
+				<p class='text-center pb-3'>Preklados divočákos jazykos jednoduchos né šak vieš. Keď si pravý divočák podpor tento projektos a <a href='https://www.buymeacoffee.com/peterutekal'>kup mi kavu.</a> </p>
 
 <div class='alert alert-info' role='alert'>
 				<p class='text-center' style='padding:0;margin:0;'><b>Tutorialos:</b> Jednoduchos použitos daj do lavos slovenskos textos klikni ENTEROS a na pravos uvidíš divočákos textos.</p>
