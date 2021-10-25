@@ -1,7 +1,7 @@
 name: FTP Deployment to websupport
 on:
   push:
-    branches: [ main ]
+    branches: [ m ]
 jobs:
   build:
     runs-on: ubuntu-latest
