@@ -4,8 +4,16 @@
 				$words_arr = explode(" ", $sk);
 				$out = array();
 
+				if(count($words_arr) == 1){
+						$words_arr = explode(" ", "Moc kratky text brasko");
+				}
+
 				foreach($words_arr as $word){
 						if(strlen($word) < 3){
+								array_push($out, $word);
+								continue;
+						}
+						if($word == 'som'){
 								array_push($out, $word);
 								continue;
 						}
@@ -15,12 +23,11 @@
 								$word = $word . 'os'; 
 								array_push($out, $word);
 								continue;
-
 						}else if($l == 'o'){
 								$word = $word . 's';
 								array_push($out, $word);
 								continue;
-						}else if($l == 'a' || $l == 'i' || $l == 'y'){
+						}else if($l == 'a' || $l == 'i' || $l == 'y' || $l == 'u'){
 								$word = substr_replace($word ,"", -1);
 								$word = $word . 'os';
 								array_push($out, $word);		
@@ -33,7 +40,7 @@
 				}
 
 
-				array_push($out, ",sak");
+				array_push($out, ", sak");
 				array_push($out, "povedz");
 				array_push($out, "ty");
 				array_push($out, "ne");
