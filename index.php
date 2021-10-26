@@ -80,8 +80,49 @@
 						</label>
 			</form>
 
+
+			<div class='container mt-5'>
+					  <h1 class='text-center'>Najlepšos divočáckos príbehos</h1>
+					  <p class='text-center'>Keď chceš aby aj tvoj príbehos bol na stenos of divočákos legendos pošli na <a href='mailto:peter@utekal.sk'>peter@utekal.sk</a> a rados staršos divočákos sa na to pozros, šak povedz ty ne.</p>
+					  <hr />	
+				<div class='row mt-5'>
+					  <div class='col'>
+						<p></p>
+						</div>
+						
+					  <div class='col'>
+<p>
+</p>
+						</div>
+
+					  <div class='col'>
+						<p></p>
+						</div>
+				</div>
+
+
+		  <!-- Modal -->
+		  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			 <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					 <h5 class="modal-title" id="exampleModalLabel">Pozoros divočákos!</h5>
+					 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				  </div>
+				  <div class="modal-body">
+					<h5>Divočáci, posielajte vaše príbehos na mailos (peter@utekal.sk) nech vyberieme tie najlepšie na novú stenos.</h5>
+				  </div>
+				</div>
+			 </div>
+		  </div>
+			</div>
 		</body>
 	<script>
+		  var myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {});
+		  document.onreadystatechange = function () {
+			 myModal.show();
+		  };
+
 			let btn  = document.getElementById('btn');
 			document.addEventListener('keypress', function(e){
 				if(e.key == 'Enter'){
