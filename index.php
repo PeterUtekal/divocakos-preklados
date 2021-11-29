@@ -33,6 +33,8 @@
 
 		  gtag('config', 'G-JQREL3RSYJ');
 		</script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5031359405663466"
+     crossorigin="anonymous"></script>
 
 		</head>
 		<body>
@@ -80,49 +82,47 @@
 						</label>
 			</form>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5031359405663466"
+     crossorigin="anonymous"></script>
+<!-- Divocakos Ads -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5031359405663466"
+     data-ad-slot="2847084291"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 			<div class='container mt-5'>
 					  <h1 class='text-center'>Najlepšos divočáckos príbehos</h1>
 					  <p class='text-center'>Keď chceš aby aj tvoj príbehos bol na stenos of divočákos legendos pošli na <a href='mailto:peter@utekal.sk'>peter@utekal.sk</a> a rados staršos divočákos sa na to pozros, šak povedz ty ne.</p>
 					  <hr />	
 				<div class='row mt-5'>
-					  <div class='col'>
-						<p></p>
+					  <div class='col-sm-4'>
+						<p><b>- StopMar, 12 rokov</b></p>
+						<p>
+	
+Pumpoval som si doma bicakos 80kg jednoruckos ne vsak aby som mal svalos a zrazu pise kamaratkos ze rodicos v nočnos pracos a ja iba ze jakooou kukam dole a napumpovany kandidatos a vajcos previslos az po kolenos tak jej pisem ze 5 minutos a som tam. Obliekol som tielko ne nech vidno prsos bicakos chrbatos a čumelos na mna babkos a sa na nu kukam ze na kohooo?! Ti vyparkujem boxeros na hrtanos vypadlo jej hovnos z ritos tak som ho ovonal a zacitil som proteinos tak kukam na babkos ze babkos asi tiez pumpujos bicakos. Meskal som ku kamaratkos asi 10 minutos otvoril som dveros a tam jej tatkos stalos s palicos ze co tu robi divocakos o 23 veceros a ja iba kohoo tvoja dceros mi pisalos ze chce bambusos do ritos a ostal vykukanos tak som dosiel dalej zavrel do izbos a uzivalos veceros. Asi po hodinos zabavos som zistil ze to ne kamaratkos no to jej matkos.
+						</p>
 						</div>
 						
-					  <div class='col'>
+					  <div class='col-sm-4'>
+						<p><b>- Emil Ripar</b></p>
 <p>
+
+včera večeros idem von s jednou babou neee šak povedz ty!? A  z krovia vybehlos divocakos co mal pelkos jak ja bicakos tak som rychlo bezalos s cajkos prec neee šak povedz ty::::a divocakos nas dobehlos ta som mu dal s boxerom na zubos nee a chrachutalos tam potom divocakos a my sme boli šťastnos .
 </p>
 						</div>
 
-					  <div class='col'>
+					  <div class='col-sm-4'>
 						<p></p>
 						</div>
 				</div>
-
-
-		  <!-- Modal -->
-		  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-			 <div class="modal-dialog">
-				<div class="modal-content">
-				  <div class="modal-header">
-					 <h5 class="modal-title" id="exampleModalLabel">Pozoros divočákos!</h5>
-					 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				  </div>
-				  <div class="modal-body">
-					<h5>Divočáci, posielajte vaše príbehos na mailos (peter@utekal.sk) nech vyberieme tie najlepšie na novú stenos.</h5>
-				  </div>
-				</div>
-			 </div>
-		  </div>
 			</div>
 		</body>
 	<script>
-		  var myModal = new bootstrap.Modal(document.getElementById("exampleModal"), {});
-		  document.onreadystatechange = function () {
-			 myModal.show();
-		  };
-
 			let btn  = document.getElementById('btn');
 			document.addEventListener('keypress', function(e){
 				if(e.key == 'Enter'){
